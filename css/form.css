@@ -1,0 +1,100 @@
+/*Color página*/
+body
+{
+ background:#F0FFFF;
+}
+
+
+
+/*Cabecera*/
+header
+{
+ background:#6798A7;
+ color:white;
+}
+
+h1
+{
+ font-size:70px;
+}
+
+
+
+/*Formulario*/
+h2
+{
+ color:#6798A7;
+}
+
+form
+{
+ padding:10px;
+}
+
+label
+{
+ font-size:20px;
+}
+
+input, textarea
+{
+ margin-bottom:5px;
+ width:40%;
+ padding:10px
+ border:1px solid #ccc;
+}
+
+[type="radio"]
+{
+ width:10%;
+ cursor:pointer;
+}
+
+[type="checkbox"]
+{
+ width:5%;
+ cursor:pointer;
+}
+
+[type="submit"]
+{
+ background:#6798A7;
+ color:white;
+ border:none;
+ width:10%;
+ align:left;
+}
+
+
+input[type="submit"]:hover
+{
+ background:#FFDDDD;
+ color:#004051;
+ cursor:pointer;
+ border:1px solid #000;
+}
+
+input[type="reset"]
+{
+ background:#6798A7;
+ color:white;
+ border:none;
+ width:10%;
+}
+
+input[type="reset"]:hover
+{
+ background:#FFDDDD;
+ color:#004051;
+ cursor:pointer;
+ border:1px solid #000;
+}
+
+
+/*Pie de página*/
+footer
+{
+ background:#FFDDDD;
+ color:#004051;
+ text-align:right;
+}

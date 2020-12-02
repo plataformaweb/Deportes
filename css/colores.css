@@ -1,0 +1,63 @@
+/*Color página*/
+body
+{
+ background:#F0FFFF;
+}
+
+/*Cabecera*/
+header
+{
+ background:#6798A7;
+ color:white;
+}
+
+h1
+{
+ font-size:70px;
+}
+
+/*cuerpo*/
+
+h2
+{
+ color:#6798A7;
+}
+
+table
+{
+ margin:20px;
+}
+
+table td
+{
+ background:#6798A7;
+ color:white;
+ padding:20px;
+}
+
+table td p
+{
+ font-size:20px;
+ text-align:justify;
+}
+
+table td img
+{
+ height:auto;
+ width:100px;
+}
+
+
+table td:hover
+{
+ background:#FFDDDD;
+ color:#004051;
+}
+
+/*Pie de página*/
+footer
+{
+ background:#FFDDDD;
+ color:#004051;
+ text-align:right;
+}

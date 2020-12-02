@@ -1,0 +1,79 @@
+﻿body /* El color de fondo de la pagina*/
+{
+ background:#F0FFFF;
+}
+
+/* DISEÑO DE LA CABECERA*/
+
+/*Diseño del titulo*/
+header
+{
+ width:100%; /*porcentajess para diseño responsivo*/
+ margin:20px, auto;
+}
+header div /*Fondo del titulo */
+{
+background:#6798A7;
+}
+header div h1 /* Propiedades del titulo Deportes Storm*/
+{
+font-size: 70px;
+color:#FFFFFF;
+}
+
+/*Diseño del menu*/
+header nav ul li   /*elementos del menu */
+{
+background:#A8DFF0;
+display:inline-block;
+}
+header nav ul li a   /* Para cada uno de los elementos*/
+{
+text-decoration:none; 
+padding:10px 30px;
+color:#026D89;
+font-size: 30px;
+}
+header nav li a:hover  /*Para cuando se pase el puntero por el menu */
+{
+ background:#000000;
+ color:#FFFFFF;
+}
+
+
+
+
+/* DISEÑO DEL CUERPO DE LA PAGINA*/
+.main .concepto  /*Propiedades del cuerpo de la pagina */
+{
+width:30%;	 /*del total de area del dispositivo*/
+float:left; 		/*envia contenido a la izquierda*/
+background:#FFFFFF;
+padding:10px 30px;
+margin:10px;
+background:#CBF3FE
+}
+
+
+aside article	 /*La imagen de los deportes*/
+{
+width:60%;
+float:left;
+padding:20px;
+box-sizing:border-box;	/* acomoda a la derecha*/
+margin:5px;
+}
+
+
+
+/*DISEÑO DEL PIE DE PAGINA*/
+footer  /*Propiedades del pie de pagina*/
+{
+ background:#004051;
+ color:#FFDDDD;
+ clear:both; /*limpia los float*/
+ text-align:right;
+background:#CE8484;
+}
+
+
