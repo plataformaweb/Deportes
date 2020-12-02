@@ -1,0 +1,54 @@
+<html> 	
+<head> 
+	<title> Contacto </title>
+	<link href="css\form.css" rel="stylesheet" type="text/css">
+</head>	
+
+<body> 
+	<!--CABECERA-->
+	<header>
+		<div>
+			<h1><img src="D:\Tormenta.png" width="75" align="left">Deportes Storm</h1> 
+		</div>
+	</header>
+
+	<!--CUERPO DE LA PAGINA-->
+	<h2> Contáctanos </h2>
+	<br>
+	<!--Formulario y elementos-->
+	<form>
+		<label for="Nombre"> Nombre: </label><br>
+		<input type="text" Name="nombre" size="30" maxlength="50"> 
+		<br>
+		<label for="Celular"> Celular: </label><br>
+		<input type="text" Name="celular" size="30" maxlength="50">
+		<br>
+		<label for="Email"> Email: </label><br>
+		<input type="email" Name="email" size="30" maxlength="50"> 
+		<br><br>
+		<label for="Prodcuto"> Producto: </label>
+		<br>
+		<label><input type="checkbox" id="cbox1" value="balón_fútbol"> Balón Fútbol </label><br>
+		<label><input type="checkbox" id="cbox2" value="balón_basquetbol"> Balón Basquetbol </label><br>
+		<label><input type="checkbox" id="cbox3" value="short_adidas"> Short Adidas </label><br>
+		<label><input type="checkbox" id="cbox4" value="short_puma"> Short Puma </label><br>
+		<label><input type="checkbox" id="cbox5" value="tenis_fútbol"> Tenis Fútbol </label><br>
+		<label><input type="checkbox" id="cbox6" value="tenis_basquetbol"> Tenis Basquetbol </label><br><br>
+		<label for="Pago"> Método de Pago: </label><br>
+		<input type="radio" id="tarjeta" name="pago" value="tarjeta">
+		<label for="tarjeta">Tarjeta</label>
+		<input type="radio" id="deposito" name="pago" value="deposito">
+		<label for="deposito">Depósito</label>
+		<input type="radio" id="oxxo" name="pago" value="oxxo">
+		<label for="oxxo">OXXO</label><br><br>
+		<!-- Botones-->
+		<input type="submit" value="Enviar">
+		<input type="Reset" value="Borrar"> 
+	</form>
+
+	<!--PIE DE PAGINA-->
+	<footer>
+		<p> Desarrollo Web Tecnomantes </p>
+	</footer>
+</body>
+</html>
